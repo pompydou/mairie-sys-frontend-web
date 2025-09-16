@@ -198,7 +198,7 @@ export function MayorSidebar() {
           <div className="w-6 h-6 bg-blue-600 rounded-sm flex items-center justify-center">
             <div className="w-3 h-3 bg-white rounded-full"></div>
           </div>
-          <span className="text-lg font-semibold text-gray-900">dotwork</span>
+          <span className="text-lg font-semibold text-gray-900">CivicLink</span>
         </div>
       </div>
 

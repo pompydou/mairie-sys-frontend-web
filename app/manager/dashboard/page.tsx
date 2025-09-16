@@ -1,7 +1,7 @@
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Tableau de bord Chef de Service",
+  title: "Tableau de bord CivicLink Chef de Service",
   description: "Tableau de bord du chef de service",
 }
 
@@ -9,7 +9,7 @@ export default function ManagerDashboardPage() {
   return (
     <div className="flex-1 space-y-4 p-8 pt-6">
       <div className="flex items-center justify-between space-y-2">
-        <h2 className="text-3xl font-bold tracking-tight">Tableau de bord Chef de Service</h2>
+        <h2 className="text-3xl font-bold tracking-tight">Tableau de bord CivicLink Chef de Service</h2>
       </div>
       <div className="flex-1 rounded-lg border border-dashed border-gray-200 p-8">
         <div className="flex h-64 items-center justify-center">
