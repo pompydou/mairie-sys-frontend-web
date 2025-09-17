@@ -235,7 +235,7 @@ export function StaffSidebar() {
       {/* Logo */}
       <div className="flex h-16 items-center border-b px-4">
         <div className="flex items-center gap-2">
-          <div className="w-6 h-6 bg-blue-600 rounded-sm flex items-center justify-center">
+          <div className="w-6 h-6 bg-green-800 rounded-sm flex items-center justify-center">
             <div className="w-3 h-3 bg-white rounded-full"></div>
           </div>
           <span className="text-lg font-semibold text-gray-900">CivicLink</span>
@@ -246,8 +246,8 @@ export function StaffSidebar() {
       {user && (
         <div className="border-b p-4">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
-              <span className="text-blue-800 font-semibold">
+            <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
+              <span className="text-green-800 font-semibold">
                 {user.first_name?.charAt(0)}{user.last_name?.charAt(0)}
               </span>
             </div>
@@ -278,8 +278,7 @@ export function StaffSidebar() {
                     <Button
                       variant="ghost"
                       className={`w-full justify-start gap-3 px-3 py-2 h-auto ${
-                        isActive 
-                          ? "bg-blue-50 text-blue-700 hover:bg-blue-50" 
+                        ? "bg-green-50 text-green-700 hover:bg-green-50"
                           : "text-gray-700 hover:bg-gray-100"
                       }`}
                       onClick={() => {
@@ -309,7 +308,7 @@ export function StaffSidebar() {
                                 variant="ghost"
                                 className={`w-full justify-start gap-3 px-3 py-2 h-auto text-sm ${
                                   isChildActive 
-                                    ? "bg-blue-50 text-blue-700 hover:bg-blue-50" 
+                                    ? "bg-green-50 text-green-700 hover:bg-green-50" 
                                     : "text-gray-600 hover:bg-gray-100"
                                 }`}
                                 onClick={() => handleNavigation(child.path)}

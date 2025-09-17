@@ -51,7 +51,7 @@ export default function LoginPage() {
               {/* Logo */}
               <div className="mb-6">
                 <div className="flex items-center gap-2">
-                  <div className="w-6 h-6 bg-blue-600 rounded-sm flex items-center justify-center">
+                  <div className="w-6 h-6 bg-green-800 rounded-sm flex items-center justify-center">
                     <div className="w-3 h-3 bg-white rounded-full"></div>
                   </div>
                   <span className="text-xl font-semibold text-gray-900">CivicLink</span>
@@ -111,13 +111,13 @@ export default function LoginPage() {
                       Se souvenir de moi
                     </label>
                   </div>
-                  <a href="#" className="text-sm text-blue-600 hover:underline">
+                  <a href="#" className="text-sm text-green-800 hover:underline">
                     Mot de passe oublié ?
                   </a>
                 </div>
 
                 {/* Login Button */}
-                <Button type="submit" className="w-full h-10 bg-blue-600 hover:bg-blue-700 mb-3" disabled={isLoading}>
+                <Button type="submit" className="w-full h-10 bg-green-800 hover:bg-green-900 mb-3" disabled={isLoading}>
                   {isLoading ? "Connexion en cours..." : "Se connecter"}
                 </Button>
               </form>
@@ -125,7 +125,7 @@ export default function LoginPage() {
               {/* Sign up link */}
               <p className="text-center text-sm text-gray-600">
                 Vous n'avez pas de compte ?{" "}
-                <a href="#" className="text-blue-600 hover:underline">
+                <a href="#" className="text-green-800 hover:underline">
                   Créer un compte
                 </a>
               </p>
@@ -133,7 +133,7 @@ export default function LoginPage() {
           </div>
 
           {/* Right Side - Illustration */}
-          <div className="flex-1 bg-gradient-to-br from-blue-600 to-blue-800 p-6 lg:p-8 flex flex-col justify-center items-center text-white relative overflow-hidden">
+          <div className="flex-1 bg-gradient-to-br from-green-800 to-green-900 p-6 lg:p-8 flex flex-col justify-center items-center text-white relative overflow-hidden">
             {/* Background decoration */}
             <div className="absolute inset-0 opacity-10">
               <div className="absolute top-12 left-12 w-16 h-24 bg-white rounded-sm"></div>
@@ -153,7 +153,7 @@ export default function LoginPage() {
                   </div>
                   <div className="space-y-1">
                     <div className="flex items-center gap-2">
-                      <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center">
+                      <div className="w-6 h-6 bg-green-700 rounded-full flex items-center justify-center">
                         <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
                         </svg>
@@ -182,7 +182,7 @@ export default function LoginPage() {
                 {/* Floating app icons */}
                 <div className="absolute -left-6 top-6">
                   <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-lg">
-                    <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 text-green-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
                     </svg>
                   </div>
@@ -207,22 +207,22 @@ export default function LoginPage() {
 
               {/* Text content */}
               <h2 className="text-xl font-bold mb-3">Services municipaux intégrés</h2>
-              <p className="text-blue-100 mb-4 text-sm">Accédez à tous les services administratifs de votre municipalité depuis un tableau de bord unifié.</p>
+              <p className="text-green-200 mb-4 text-sm">Accédez à tous les services administratifs de votre municipalité depuis un tableau de bord unifié.</p>
 
               {/* Navigation dots */}
               <div className="flex justify-center gap-2">
                 <div className="w-2.5 h-2.5 bg-white rounded-sm flex items-center justify-center">
-                  <svg className="w-1.5 h-1.5 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-1.5 h-1.5 text-green-800" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
                   </svg>
                 </div>
                 <div className="w-2.5 h-2.5 bg-white/50 rounded-sm flex items-center justify-center">
-                  <svg className="w-1.5 h-1.5 text-blue-600/50" fill="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-1.5 h-1.5 text-green-800/50" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
                   </svg>
                 </div>
                 <div className="w-2.5 h-2.5 bg-white/50 rounded-sm flex items-center justify-center">
-                  <svg className="w-1.5 h-1.5 text-blue-600/50" fill="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-1.5 h-1.5 text-green-800/50" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
                   </svg>
                 </div>
